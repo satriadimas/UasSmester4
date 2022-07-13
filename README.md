@@ -40,6 +40,3 @@ Solutions:
 - Option2: Upgrade Codeigniter
 
 Reference: https://codeigniter.com/user_guide/changelogs/v4.1.7.html
-#� �U�a�s�S�m�e�s�t�e�r�4�
-�
-�
