@@ -6,6 +6,7 @@ TI.20.B2
 
 ## Link
 
+https://dimas.freemeco.my.id/
 
 ## Getting Started
 
@@ -15,6 +16,7 @@ cd UasSmester4
 ```
 
 open terminal
+
 ```shell
 composer install
 php spark migrate
@@ -27,7 +29,8 @@ then,
 Open http://localhost:8080
 ```
 
-if an error 
+if an error
+
 ```shell
 Constant FILTER_SANITIZE_STRING is deprecated
 ```
