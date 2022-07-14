@@ -23,7 +23,7 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light mb-5">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-2">
     <div class="container">
       <a class="navbar-brand" href="#">
         <i class="fa-solid fa-clock"></i>
@@ -59,8 +59,7 @@
       <span>
         &copy; <script>
           document.write(new Date().getFullYear());
-        </script> Satria Dimas Permana |
-        <i class="fa-solid fa-code"></i> dengan <i class="fa-solid fa-heart"></i>
+        </script> Satria Dimas Permana | UAS Smester 4
       </span>
     </div>
   </footer>

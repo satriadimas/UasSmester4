@@ -1,3 +1,3 @@
-<?php foreach ($antrianlast as $key => $data40) {
-  echo $data40["id"];
+<?php foreach ($antrianlast as $key => $data10) {
+  echo $data10["id"];
 }

@@ -20,11 +20,11 @@ class Antrianno extends Controller
         $data = [
             'title' => 'Layar Antrian'
         ];
+        $data['antrian1'] = $this->antrian->getAntrianno(1);
+        $data['antrian2'] = $this->antrian->getAntrianno(2);
+        $data['antrian3'] = $this->antrian->getAntrianno(3);
         $data['antrian4'] = $this->antrian->getAntrianno(4);
-        $data['antrian5'] = $this->antrian->getAntrianno(5);
-        $data['antrian6'] = $this->antrian->getAntrianno(6);
-        $data['antrian7'] = $this->antrian->getAntrianno(7);
-        $data['antrianlast'] = $this->antrian->getAntrianlast(7);
+        $data['antrianlast'] = $this->antrian->getAntrianlast(4);
 
         echo view('pages/antrianno/index', $data);
     }
@@ -35,10 +35,10 @@ class Antrianno extends Controller
         $data = [
             'title' => 'Edit'
         ];
+        $data['antrian1'] = $this->antrian->getAntrianno(1);
+        $data['antrian2'] = $this->antrian->getAntrianno(2);
+        $data['antrian3'] = $this->antrian->getAntrianno(3);
         $data['antrian4'] = $this->antrian->getAntrianno(4);
-        $data['antrian5'] = $this->antrian->getAntrianno(5);
-        $data['antrian6'] = $this->antrian->getAntrianno(6);
-        $data['antrian7'] = $this->antrian->getAntrianno(1);
         echo view('antrian/edit2', $data);
     }
 
@@ -47,7 +47,7 @@ class Antrianno extends Controller
         $data = [
             'title' => 'Cek'
         ];
-        $data['antrianlast'] = $this->antrian->getAntrianlast(7);
+        $data['antrianlast'] = $this->antrian->getAntrianlast(4);
         echo view('antrian/cek', $data);
     }
 }

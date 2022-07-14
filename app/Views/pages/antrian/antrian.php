@@ -19,16 +19,16 @@
                       <?php
                       $request = \Config\Services::request();
                       $s = $request->uri->getSegment(3);
-                      if ($s == "4") {
+                      if ($s == "1") {
                         echo "A" .
                           $a;
-                      } elseif ($s == "5") {
+                      } elseif ($s == "2") {
                         echo "B" .
                           $a;
-                      } elseif ($s == "6") {
+                      } elseif ($s == "3") {
                         echo "C" .
                           $a;
-                      } elseif ($s == "7") {
+                      } elseif ($s == "4") {
                         echo "D" .
                           $a;
                       }

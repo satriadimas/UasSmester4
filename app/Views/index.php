@@ -3,7 +3,7 @@
 <?= $this->section('content'); ?>
 <div class="container">
 
-    <h1>Halo, ini halaman Home!</h1>
+    <h1>Welcome!!</h1>
     <p>Silahkan mengambil antrian</p>
 
 </div>

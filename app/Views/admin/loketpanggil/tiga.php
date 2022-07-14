@@ -1,14 +1,14 @@
+<?php foreach ($antrian1 as $key => $data1) {
+    $aa = $data1["id"];
+} ?>
+<?php foreach ($antrian2 as $key => $data2) {
+    $bb = $data2["id"];
+} ?>
+<?php foreach ($antrian3 as $key => $data3) {
+    $cc = $data3["id"];
+} ?>
 <?php foreach ($antrian4 as $key => $data4) {
-    $aa = $data4["id"];
-} ?>
-<?php foreach ($antrian5 as $key => $data5) {
-    $bb = $data5["id"];
-} ?>
-<?php foreach ($antrian6 as $key => $data6) {
-    $cc = $data6["id"];
-} ?>
-<?php foreach ($antrian7 as $key => $data7) {
-    $dd = $data7["id"];
+    $dd = $data4["id"];
 } ?>
 
 

@@ -46,7 +46,7 @@ class Antrian extends Controller
             'status' => 'mengantri',
             'waktu_panggil' => null,
             'waktu_selesai' => null,
-            'pelayanan_id' => '4',
+            'pelayanan_id' => '1',
             'loket_id' => '1'
         ];
 
@@ -55,7 +55,7 @@ class Antrian extends Controller
             'status' => 'berlansung',
             'waktu_panggil' => null,
             'waktu_selesai' => null,
-            'pelayanan_id' => '4',
+            'pelayanan_id' => '1',
             'loket_id' => '1'
         ];
         $dataa['antrianstatus'] = $this->antrian->getAntrianstatus('4');
@@ -90,7 +90,7 @@ class Antrian extends Controller
             'status' => 'mengantri',
             'waktu_panggil' => null,
             'waktu_selesai' => null,
-            'pelayanan_id' => '5',
+            'pelayanan_id' => '2',
             'loket_id' => '1'
         ];
 
@@ -99,7 +99,7 @@ class Antrian extends Controller
             'status' => 'berlansung',
             'waktu_panggil' => null,
             'waktu_selesai' => null,
-            'pelayanan_id' => '5',
+            'pelayanan_id' => '2',
             'loket_id' => '1'
         ];
 
@@ -134,7 +134,7 @@ class Antrian extends Controller
             'status' => 'mengantri',
             'waktu_panggil' => null,
             'waktu_selesai' => null,
-            'pelayanan_id' => '6',
+            'pelayanan_id' => '3',
             'loket_id' => '1'
         ];
 
@@ -143,7 +143,7 @@ class Antrian extends Controller
             'status' => 'berlansung',
             'waktu_panggil' => null,
             'waktu_selesai' => null,
-            'pelayanan_id' => '6',
+            'pelayanan_id' => '3',
             'loket_id' => '1'
         ];
 
@@ -178,7 +178,7 @@ class Antrian extends Controller
             'status' => 'mengantri',
             'waktu_panggil' => null,
             'waktu_selesai' => null,
-            'pelayanan_id' => '7',
+            'pelayanan_id' => '4',
             'loket_id' => '1'
         ];
         $dataaa = [
@@ -186,7 +186,7 @@ class Antrian extends Controller
             'status' => 'berlansung',
             'waktu_panggil' => null,
             'waktu_selesai' => null,
-            'pelayanan_id' => '7',
+            'pelayanan_id' => '4',
             'loket_id' => '1'
         ];
 

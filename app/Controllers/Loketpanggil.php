@@ -19,11 +19,11 @@ class Loketpanggil extends Controller
         $data = [
             'title' => 'Loket panggil'
         ];
+        $data['antrian1'] = $this->antrian->getAntrianno(1);
+        $data['antrian2'] = $this->antrian->getAntrianno(2);
+        $data['antrian3'] = $this->antrian->getAntrianno(3);
         $data['antrian4'] = $this->antrian->getAntrianno(4);
-        $data['antrian5'] = $this->antrian->getAntrianno(5);
-        $data['antrian6'] = $this->antrian->getAntrianno(6);
-        $data['antrian7'] = $this->antrian->getAntrianno(7);
-        $data['antrianlast'] = $this->antrian->getAntrianlast(7);
+        $data['antrianlast'] = $this->antrian->getAntrianlast(4);
         echo view('admin/loketpanggil/index', $data);
     }
     public function dua()
@@ -31,11 +31,11 @@ class Loketpanggil extends Controller
         $data = [
             'title' => 'Loket panggil 2'
         ];
+        $data['antrian1'] = $this->antrian->getAntrianno(1);
+        $data['antrian2'] = $this->antrian->getAntrianno(2);
+        $data['antrian3'] = $this->antrian->getAntrianno(3);
         $data['antrian4'] = $this->antrian->getAntrianno(4);
-        $data['antrian5'] = $this->antrian->getAntrianno(5);
-        $data['antrian6'] = $this->antrian->getAntrianno(6);
-        $data['antrian7'] = $this->antrian->getAntrianno(7);
-        $data['antrianlast'] = $this->antrian->getAntrianlast(7);
+        $data['antrianlast'] = $this->antrian->getAntrianlast(4);
         echo view('admin/loketpanggil/dua', $data);
     }
     public function tiga()
@@ -43,11 +43,11 @@ class Loketpanggil extends Controller
         $data = [
             'title' => 'Loket panggil 3'
         ];
+        $data['antrian1'] = $this->antrian->getAntrianno(1);
+        $data['antrian2'] = $this->antrian->getAntrianno(2);
+        $data['antrian3'] = $this->antrian->getAntrianno(3);
         $data['antrian4'] = $this->antrian->getAntrianno(4);
-        $data['antrian5'] = $this->antrian->getAntrianno(5);
-        $data['antrian6'] = $this->antrian->getAntrianno(6);
-        $data['antrian7'] = $this->antrian->getAntrianno(7);
-        $data['antrianlast'] = $this->antrian->getAntrianlast(7);
+        $data['antrianlast'] = $this->antrian->getAntrianlast(4);
         echo view('admin/loketpanggil/tiga', $data);
     }
     public function empat()
@@ -55,11 +55,11 @@ class Loketpanggil extends Controller
         $data = [
             'title' => 'Loket panggil 4'
         ];
+        $data['antrian1'] = $this->antrian->getAntrianno(1);
+        $data['antrian2'] = $this->antrian->getAntrianno(2);
+        $data['antrian3'] = $this->antrian->getAntrianno(3);
         $data['antrian4'] = $this->antrian->getAntrianno(4);
-        $data['antrian5'] = $this->antrian->getAntrianno(5);
-        $data['antrian6'] = $this->antrian->getAntrianno(6);
-        $data['antrian7'] = $this->antrian->getAntrianno(7);
-        $data['antrianlast'] = $this->antrian->getAntrianlast(7);
+        $data['antrianlast'] = $this->antrian->getAntrianlast(4);
         echo view('admin/loketpanggil/empat', $data);
     }
 

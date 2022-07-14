@@ -106,6 +106,6 @@ class AntrianModel extends Model
         $request = \Config\Services::request();
         $rr = $request->uri->getSegment(3);
    $this->db->table($this->table)->update($data, ['id' => $id]);
-   return $this->db->query("UPDATE antrian SET status = 'berlansung' WHERE id = ( SELECT MIN(id) AS min FROM antrian WHERE pelayanan_id = (select pelayanan_id from antrian where id = '" .$id." ') and status = 'mengantri'   )");
+   return $this->db->query("UPDATE antrian SET status = 'berlansung' WHERE id = ".$id." and status = 'mengantri'");
     } 
 }
