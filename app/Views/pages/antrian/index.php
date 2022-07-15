@@ -7,7 +7,7 @@
         <div class="hero-inner">
           <div class="hero-copy">
             <div class="card text-center bg-light">
-              <div class="card-body bg-warning">
+              <div class="card-body bg-sucess">
                 <h1 style="text-align: center;">Menu Antrian</h1>
               </div>
             </div>
